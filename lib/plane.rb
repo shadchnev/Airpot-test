@@ -16,6 +16,9 @@ class Plane
 		@flying = false
 	end
 
+	# this method will always return true
+	# because you never change the value of @landing,
+	# so it's nil. Negating nil will return true.
 	def landing?
 		!@landing
 	end
